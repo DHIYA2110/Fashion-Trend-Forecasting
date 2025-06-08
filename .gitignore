@@ -1,14 +1,17 @@
-# Ignore data files (especially large ones) — keep sample if needed
-/data/*.csv
-!/data/merged_sales_data.csv
+# Ignore all CSV files in the data folder
+data/*.csv
 
-# Ignore virtual environments
-venv/
-.env/
-
-# Ignore Jupyter checkpoint files
+# Ignore notebook checkpoints
 **/.ipynb_checkpoints/
+
+# Ignore model files
+*.h5
+*.pkl
+*.joblib
 
 # Ignore system files
 .DS_Store
 Thumbs.db
+
+# Ignore environment and secret files
+.env
