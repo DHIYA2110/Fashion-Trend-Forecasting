@@ -1,13 +1,18 @@
 # Ignore all CSV files in the data folder
-data/*.csv
+data/
+*.csv
 
 # Ignore notebook checkpoints
 **/.ipynb_checkpoints/
+*.ipynb_checkpoints/
 
 # Ignore model files
 *.h5
 *.pkl
 *.joblib
+
+# Ignore compressed files
+*.zip
 
 # Ignore system files
 .DS_Store
