@@ -1,0 +1,14 @@
+# Ignore data files (especially large ones) — keep sample if needed
+/data/*.csv
+!/data/merged_sales_data.csv
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore Jupyter checkpoint files
+**/.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
